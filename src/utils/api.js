@@ -3,10 +3,10 @@
 
 import axios from 'axios';
 
-
+let ApiUrl = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000/api';
 
 const api = axios.create({
-    baseURL: 'https://zynto-ecommerce-backend-production.up.railway.app', // Apne backend ka URL yahan daalo
+    baseURL: ApiUrl, // Apne backend ka URL yahan daalo
     headers: {
         'Content-Type': 'application/json'
     }
