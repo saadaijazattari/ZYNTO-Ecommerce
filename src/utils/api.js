@@ -6,7 +6,7 @@ import axios from 'axios';
 
 
 const api = axios.create({
-    baseURL: 'https://zynto-ecommerce-backend-production.up.railway.app/api', // Apne backend ka URL yahan daalo
+    baseURL: 'https://zynto-ecommerce-backend-production.up.railway.app', // Apne backend ka URL yahan daalo
     headers: {
         'Content-Type': 'application/json'
     }
